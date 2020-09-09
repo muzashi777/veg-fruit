@@ -1,10 +1,15 @@
 import React from "react";
+import Home from "./home";
+import Product from "./product";
+import About from "./about";
 
-export default class Home extends React.Component {
+export default class Index extends React.Component {
   render() {
     return (
       <div>
-        <h2>Hello</h2>
+        <Home />
+        <Product />
+        <About />
       </div>
     );
   }
